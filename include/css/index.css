@@ -1,0 +1,11 @@
+.header {
+    background-color: #66cc33;
+    width: 10%;
+    min-height: 50pt;
+}
+
+.footer {
+    background-color: darkgrey;
+    width: 10%;
+    min-height: 50pt;
+}
