@@ -1,11 +1,18 @@
-.header {
+#topBar {
     background-color: #66cc33;
-    width: 10%;
-    min-height: 50pt;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    max-height: 40pt;
 }
-
+.header {
+    flex: 1;
+}
 .footer {
     background-color: darkgrey;
     width: 10%;
     min-height: 50pt;
+    float: left;
 }
