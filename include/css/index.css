@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+#canImage {
+    position: absolute;
+    left: 30em;
+    width: 100%; 
+    height: auto;
+}
+
+#info {
+    position: absolute;
+    right: 45em;
+    top: 20em;
+    width: 500pt;
+    height: 300pt;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+
+#labels {
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    top: 20em;
+    display: flex;
+    flex-direction: row;
+    width: 500pt;
+    height: 100pt;
+}
+
+#topBar {
+    background-color: black;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    border-style: solid;
+    border-color: #66cc33;
+    border-left-width: 0pt;
+    border-right-width: 0pt;
+    border-top-width: 0pt;
+    border-bottom-width: 5pt;
+}
+.header {
+    flex: 1;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+#bottomBar {
+    background-color: black;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    position: absolute; bottom: 0pt;
+    text-align: center;
+    border-style: solid;
+    border-color: #66cc33;
+    border-left-width: 0pt;
+    border-right-width: 0pt;
+    border-top-width: 5pt;
+    border-bottom-width: 0pt;
+}
+.footer {
+    flex: 1;
+    min-height: 40pt;
+}
