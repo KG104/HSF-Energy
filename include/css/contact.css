@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#topBar {
+    background-color: black;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    border-style: solid;
+    border-color: #66cc33;
+    border-left-width: 0pt;
+    border-right-width: 0pt;
+    border-top-width: 0pt;
+    border-bottom-width: 5pt;
+}
+.header {
+    flex: 1;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+#bottomBar {
+    background-color: black;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+    position: absolute; bottom: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: #66cc33;
+    border-left-width: 0pt;
+    border-right-width: 0pt;
+    border-top-width: 5pt;
+    border-bottom-width: 0pt;
+}
+.footer {
+    flex: 1;
+    min-height: 40pt;
+}
