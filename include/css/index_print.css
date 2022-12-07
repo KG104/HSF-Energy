@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+#canImage {
+    position: absolute;
+    left: 30em;
+    width: 100%; 
+    height: auto;
+}
+
+#info {
+    position: absolute;
+    right: 45em;
+    top: 20em;
+    width: 500pt;
+    height: 300pt;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+
+#labels {
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    top: 20em;
+    display: flex;
+    flex-direction: row;
+    width: 500pt;
+    height: 100pt;
+}
