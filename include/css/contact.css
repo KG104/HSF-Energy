@@ -1,5 +1,17 @@
-body{
+@font-face {
+    font-family: "Roboto";
+    src:url("../fonts/Roboto/roboto-medium-webfont.woff") format('woff'),
+        url("../fonts/Roboto/roboto-medium-webfont.woff2") format('woff2'),
+        url("../fonts/Roboto/Roboto-Medium.ttf") format('truetype');
+}
+
+h1 {
+    font-family: "Roboto";
+}
+
+body {
     background-color: black;
+    font-family: "Roboto";
     color: white;
 }
 
